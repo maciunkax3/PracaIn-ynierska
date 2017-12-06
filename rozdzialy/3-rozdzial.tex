@@ -1,9 +1,9 @@
 \section{Kaskadowe klasyfikatory cech Haar'a}
 
-Wybraną metodą zaimplementowaną w celu rozpoznawania obiektów są kaskady Hara. Jest to bardzo skuteczny i szybki sposób detekcji oparty na kaskadowych klasyfikatorach cech. Metoda ta działa sprawnie przetwarzając wideo w czasie rzeczywistym, więc w doskonale sprawdza się w naszym przypadk, ze względu na szybki czas działania. Takie rozwiązanie detekcj obiektów został zaprezentowany prez Paula Viola i Michael Jones w jedej z ich prac naukowych \cite{violaJones}
+Wybraną metodą zaimplementowaną w celu rozpoznawania obiektów są kaskady Haar'a. Jest to bardzo skuteczny i szybki sposób detekcji oparty na kaskadowych klasyfikatorach cech. Metoda ta działa sprawnie przetwarzając wideo w czasie rzeczywistym, więc w doskonale sprawdza się w naszym przypadk, ze względu na szybki czas działania. Takie rozwiązanie detekcji obiektów został zaprezentowany prez Paula Viola i Michael Jones w jedej z ich prac naukowych \cite{violaJones}
 
 \subsection{Cechy Haar'a}
-Proces detekcji obiektów oparty jest o tzw. Cechy Haara. Są to prostokąty takie jak przedstawiono na rysunku \ref{fig:cechyHaara}. Zawierają one informacje na temat różnicy wartości pikseli na zaznaczonych obszarach dodatkowo wartości te są przeskalowane odwrotnie porcjonalnie do ich wielkości
+Proces detekcji obiektów oparty jest o tzw. Cechy Haara. Są to prostokąty takie jak przedstawiono na rysunku \ref{fig:cechyHaara}. Zawierają one informacje na temat różnicy wartości pikseli na zaznaczonych obszarach, dodatkowo wartości te są przeskalowane odwrotnie porcjonalnie do ich wielkości
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{imgs/cechy.jpg}
@@ -35,8 +35,8 @@ Zdefiniowane zostały 3 rodzaje cech. Pierwsza \ref{fig:cechyHaara} a jest przed
 
 \subsection{Obliczanie wartości sumy pikseli}
 
-Każdorazowe obliczanie wartości sumy pikseli dla każdego prostokąta wewnątrz zdjęcia byłoby bardzo kosztowne i algorytm detekcji wykonywał by się w długim czasie. W celu skrócenia czasu zastoso tak zwany Obraz scałkowany (ang. Integral Image).
-Pojęcie to polega na obliczeniu w pierwszej kolejności sumy pikseli dla każdego punktu (x,y) zdjęcia w odniesieniu do lewego górnego rogu. Wartości te obliczane są na analogicznie do  algorytmu Summed-area table używanego w grafice \cite{sumAreaTable}. Wzór \ref{eq1} przedstawia w jaki sposób obliczana jest wartość obrazu scałkowanego dla punktu (x, y)
+Każdorazowe obliczanie wartości sumy pikseli dla każdego prostokąta wewnątrz zdjęcia byłoby bardzo kosztowne i algorytm detekcji wykonywałby się w długim czasie. W celu skrócenia czasu zastosowano tak zwany Obraz scałkowany (ang. Integral Image).
+Pojęcie to polega na obliczeniu w pierwszej kolejności sumy pikseli dla każdego punktu (x,y) zdjęcia w odniesieniu do lewego górnego rogu. Wartości te obliczane są analogicznie do algorytmu Summed-area table używanego w grafice \cite{sumAreaTable}. Wzór \ref{eq1} przedstawia w jaki sposób obliczana jest wartość obrazu scałkowanego dla punktu (x, y)
 
 \begin{equation} \label{eq1}
 ii(x,y) = \sum_{x'<x, y'<y}^{} i(x', y')
