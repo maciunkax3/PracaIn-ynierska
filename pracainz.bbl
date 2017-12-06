@@ -1,0 +1,192 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{example_1}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Autor Artykulu~1}{A.~A.~.}%
+     {Autor Artykulu~2}{A.~A.~.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AAAA1}
+  \strng{fullhash}{AAAA1}
+  \field{sortinit}{A}
+  \field{title}{Fajny albo i nie artykuł}
+  \field{journaltitle}{WETI PG}
+  \field{year}{2016}
+\endentry
+
+\entry{manifest}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/guide/topics/manifest/manifest-intro.html}
+\endentry
+
+\entry{accessing_resources}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/guide/topics/resources/accessing-resources.html}
+\endentry
+
+\entry{providing_resources}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/guide/topics/resources/providing-resources.html}
+\endentry
+
+\entry{activity}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/app/Activity.html}
+\endentry
+
+\entry{service}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/app/Service.html}
+\endentry
+
+\entry{intent}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/content/Intent.html}
+\endentry
+
+\entry{vibrator}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/os/Vibrator.html}
+\endentry
+
+\entry{constraintlayout}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/support/constraint/ConstraintLayout.html}
+\endentry
+
+\entry{view}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/view/View.html}
+\endentry
+
+\entry{adapter}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/widget/Adapter.html}
+\endentry
+
+\entry{adapterview}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/widget/AdapterView.html}
+\endentry
+
+\entry{button}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/widget/Button.html}
+\endentry
+
+\entry{checkbox}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/widget/CheckBox.html}
+\endentry
+
+\entry{edittext}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/widget/EditText.html}
+\endentry
+
+\entry{expandablelistview}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/widget/ExpandableListView.html}
+\endentry
+
+\entry{spinner}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/widget/Spinner.html}
+\endentry
+
+\entry{textview}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/widget/TextView.html}
+\endentry
+
+\entry{toast}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://developer.android.com/reference/android/widget/Toast.html}
+\endentry
+
+\entry{faceDetectionOpenCV}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://docs.opencv.org/3.3.0/d7/d8b/tutorial\_py\_face\_detection.html}
+\endentry
+
+\entry{sumAreaTable}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://en.wikipedia.org/wiki/Summed-area_table}
+\endentry
+
+\entry{OpenCVSource}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://github.com/opencv/opencv}
+\endentry
+
+\entry{mergeVec}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://github.com/wulfebw/mergevec}
+\endentry
+
+\entry{nfcspecification}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://nfc-forum.org/our-work/specifications-and-application-documents/}
+\endentry
+
+\entry{violaJones}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf}
+\endentry
+
+\entry{AdaBoostClasifire}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://www.cse.buffalo.edu/~jcorso/t/CSE555/files/lecture\_boosting.pdf}
+\endentry
+
+\entry{sumPixelsDoc}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{https://www.researchgate.net/publication/262936238\_Obscenity\_Detection\_Using\_Haar-Like\_Features\_and\_Gentle\_Adaboost\_Classifier}
+\endentry
+
+\entry{imageNetOrg}{manual}{}
+  \field{sortinit}{H}
+  \field{title}{http://www.image-net.org/}
+\endentry
+
+\entry{example_2}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {internetach}{i.}%
+     {Jakis}{J.}%
+     {ziomek~w}{z.~w.}%
+     {}{}}%
+  }
+  \strng{namehash}{iJzw1}
+  \strng{fullhash}{iJzw1}
+  \field{sortinit}{I}
+  \field{note}{Dostęp 8.12.2016}
+  \field{title}{Przykładowy artykuł online}
+  \verb{url}
+  \verb https://pl.wikipedia.org/wiki/BibTeX
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
