@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.12.2)  6 DEC 2017 20:36
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.12.2)  8 DEC 2017 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1641,12 +1641,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28])
 [29] (./rozdzialy/4-rozdzial.tex
-Overfull \hbox (11.77315pt too wide) in paragraph at lines 10--12
-\EU1/Arial(0)/m/n/10 go położenie. Do stworzenia zbioru zdjęć pozytywnych wykor
-zystano aplikacje opencv_createsaples.
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]

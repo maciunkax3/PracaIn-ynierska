@@ -29,7 +29,7 @@
   \field{sortinit}{A}
   \field{title}{Fajny albo i nie artykuł}
   \field{journaltitle}{WETI PG}
-  \field{year}{2016}
+  \field{year}{2014}
 \endentry
 
 \entry{manifest}{manual}{}
@@ -147,11 +147,6 @@
   \field{title}{https://nfc-forum.org/our-work/specifications-and-application-documents/}
 \endentry
 
-\entry{violaJones}{manual}{}
-  \field{sortinit}{H}
-  \field{title}{https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf}
-\endentry
-
 \entry{AdaBoostClasifire}{manual}{}
   \field{sortinit}{H}
   \field{title}{https://www.cse.buffalo.edu/~jcorso/t/CSE555/files/lecture\_boosting.pdf}
@@ -184,6 +179,23 @@
   \verb https://pl.wikipedia.org/wiki/BibTeX
   \endverb
   \field{year}{2016}
+\endentry
+
+\entry{violaJones}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Paul~Viola}{P.~V.}%
+     {Michael~Jones}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PVMJ1}
+  \strng{fullhash}{PVMJ1}
+  \field{sortinit}{P}
+  \field{title}{Rapid Object Detection using a Boosted Cascade of Simple
+  Features}
+  \field{journaltitle}{Cambridge}
+  \field{year}{2001}
 \endentry
 
 \lossort
