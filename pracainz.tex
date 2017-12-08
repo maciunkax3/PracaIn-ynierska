@@ -257,8 +257,8 @@
 \setlength{\parskip}{0pt}               % odległość pomiędzy akapitami
 
 % żeby nie było wdów i sierot (linii samotnych ale nie słów!)
-\widowpenalty10000
-\clubpenalty10000
+%\widowpenalty10000
+%\clubpenalty10000
 
 % komenda ignorująca cos w srodku tekstu (do naszych komentarzy)
 \newcommand{\ignore}[2]{\hspace{0in}#2}
@@ -272,17 +272,18 @@
 \bibliography{meta/bibliografia}
 \makeindex
 
+
 \begin{document}   % właściwy początek dokumentu
 
-%\includepdf{meta/StronaTytulowa_nrindeksu.pdf}
-%\includepdf{meta/Oswiadczenie_nrindeksu.pdf}
+%\includepdf{StronaTytulowa_155170.pdf}
+%\includepdf{Oswiadczenie_155170.pdf}
 \input{meta/tytulowa.tex}
 \newpage
 \setcounter{page}{3} % rozpoczecie od strony 3
 \input{meta/streszczenie.tex} \newpage
 \input{meta/abstract.tex} \newpage
 \input{meta/spis_tresci.tex} \newpage
-\input{meta/wykaz_wazniejszych_oznaczen_i_skrotow.tex} \newpage
+%\input{meta/wykaz_wazniejszych_oznaczen_i_skrotow.tex} \newpage
 
 %tutaj rozdzialy
 \input{rozdzialy/1-wstep.tex} \newpage

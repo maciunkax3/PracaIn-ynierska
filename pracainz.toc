@@ -1,147 +1,139 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Wykaz ważniejszych oznaczeń i skrótów}{7}{figure.caption.1}
+\contentsline {section}{\numberline {1}Wprowadzenie (Konrad Ossowski)}{7}{section.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Wprowadzenie}{8}{section.1}
+\contentsline {subsection}{\numberline {1.1}Istota magii}{7}{subsection.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Istota magii}{8}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Idea triku}{7}{subsection.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}Idea triku}{8}{subsection.1.2}
+\contentsline {paragraph}{Konfiguracja}{8}{paragraph*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Konfiguracja}{9}{paragraph*.2}
+\contentsline {paragraph}{Fotografia}{9}{paragraph*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Fotografia}{10}{paragraph*.4}
+\contentsline {paragraph}{Wibracje}{10}{paragraph*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Wibracje}{11}{paragraph*.5}
+\contentsline {section}{\numberline {2}Platforma Android (Konrad Ossowski, Maciej Plewka)}{11}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Platforma Android}{12}{section.2}
+\contentsline {subsection}{\numberline {2.1}Programowanie obiektowe (Konrad Ossowski)}{11}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Programowanie obiektowe}{12}{subsection.2.1}
+\contentsline {paragraph}{Abstrakcja (ang. abstraction)}{11}{paragraph*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Abstrakcja (ang. abstraction)}{12}{paragraph*.6}
+\contentsline {paragraph}{Enkapsulacja (ang. encapsulation)}{11}{paragraph*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Enkapsulacja (ang. encapsulation)}{12}{paragraph*.7}
+\contentsline {paragraph}{Polimorfizm (ang. polymorphism)}{11}{paragraph*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Polimorfizm (ang. polymorphism)}{12}{paragraph*.8}
+\contentsline {paragraph}{Dziedziczenie (ang. inheritance)}{12}{paragraph*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Dziedziczenie (ang. inheritance)}{13}{paragraph*.9}
+\contentsline {paragraph}{Obiekt a klasa (Konrad Ossowski)}{12}{paragraph*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Obiekt a klasa}{13}{paragraph*.10}
+\contentsline {subsection}{\numberline {2.2}Programowanie na Androida (Konrad Ossowski)}{13}{subsection.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Programowanie na Androida}{14}{subsection.2.2}
+\contentsline {paragraph}{Android-Java}{13}{paragraph*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Android-Java}{14}{paragraph*.11}
+\contentsline {paragraph}{Java Native Interface (JNI)}{13}{paragraph*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Java Native Interface (JNI)}{14}{paragraph*.12}
+\contentsline {paragraph}{Apache Cordova}{13}{paragraph*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Apache Cordova}{14}{paragraph*.13}
+\contentsline {paragraph}{Xamarin}{14}{paragraph*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Xamarin}{15}{paragraph*.14}
+\contentsline {subsection}{\numberline {2.3}Intencja (Konrad Ossowski)}{14}{subsection.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Intencja}{15}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Manifest (Konrad Ossowski)}{15}{subsection.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Manifest}{16}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Zasoby (Konrad Ossowski)}{15}{subsection.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Zasoby}{16}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Aktywność (Konrad Ossowski)}{15}{subsection.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}Aktywność}{16}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Warstwa ograniczeń (Konrad Ossowski)}{19}{subsection.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7}Warstwa ograniczeń}{20}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Elementu graficzne interfejsu (Konrad Ossowski)}{20}{subsubsection.2.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.7.1}Elementu graficzne interfejsu}{21}{subsubsection.2.7.1}
+\contentsline {paragraph}{Etykieta (ang. Text View)}{20}{paragraph*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Etykieta (ang. Text View)}{21}{paragraph*.17}
+\contentsline {paragraph}{Przycisk (ang. Button)}{20}{paragraph*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Przycisk (ang. Button)}{21}{paragraph*.18}
+\contentsline {paragraph}{Przycisk wyboru (ang. Check Box)}{20}{paragraph*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Przycisk wyboru (ang. Check Box)}{21}{paragraph*.19}
+\contentsline {paragraph}{Pole tekstowe (ang. Edit Text)}{20}{paragraph*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Pole tekstowe (ang. Edit Text)}{21}{paragraph*.20}
+\contentsline {paragraph}{Lista rozwijana (ang. Spinner) i Widok listy rozszerzanej (ang. Expandable List View)}{20}{paragraph*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lista rozwijana (ang. Spinner) i Widok listy rozszerzanej (ang. Expandable List View)}{21}{paragraph*.21}
+\contentsline {subsection}{\numberline {2.8}Singleton (Konrad Ossowski)}{20}{subsection.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8}Singleton}{21}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}System plików (Konrad Ossowski)}{21}{subsection.2.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.9}System plików}{22}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}Wibrator (Konrad Ossoswki)}{21}{subsection.2.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.10}Wibrator}{22}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}Aparat (Maciej Plewka)}{21}{subsection.2.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.11}Aparat}{22}{subsection.2.11}
+\contentsline {section}{\numberline {3}Kaskadowe klasyfikatory cech Haar'a (Maciej Plewka)}{23}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Kaskadowe klasyfikatory cech Haar'a}{24}{section.3}
+\contentsline {subsection}{\numberline {3.1}Cechy Haar'a}{23}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Cechy Haar'a}{24}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Obliczanie wartości sumy pikseli}{24}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Obliczanie wartości sumy pikseli}{25}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Proces uczenia mocnych klasyfikatorów}{25}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Proces uczenia mocnych klasyfikatorów}{26}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Kaskada klasyfikatorów mocnych}{27}{subsection.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Kaskada klasyfikatorów mocnych}{28}{subsection.3.4}
+\contentsline {section}{\numberline {4}Wykorzystanie biblioteki OpenCV (Maciej Plewka)}{29}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Wykorzystanie biblioteki OpenCV}{30}{section.4}
+\contentsline {subsection}{\numberline {4.1}OpenCV w procesie trenowania kaskad}{29}{subsection.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}OpenCV w procesie trenowania kaskad}{30}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Generowanie zbioru zdjęć pozytywnych}{29}{subsubsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Generowanie zbioru zdjęć pozytywnych}{30}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Trening kaskady}{31}{subsubsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}Trening kaskady}{32}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}OpenCV na platformie Android}{32}{subsection.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}OpenCV na platformie Android}{33}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Detekcja obiektów}{32}{subsubsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Detekcja obiektów}{33}{subsubsection.4.2.1}
+\contentsline {section}{\numberline {5}Trening własnej kaskady (Maciej Plewka)}{34}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Trening własnej kaskady}{35}{section.5}
+\contentsline {subsection}{\numberline {5.1}Zbiór danych uczących}{34}{subsection.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Zbiór danych uczących}{35}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Proces treningu}{36}{subsection.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Proces treningu}{37}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Trening detercji rewersu karty}{36}{subsubsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1}Trening detercji rewersu karty}{37}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Trening detekcji karty ze znakiem zapytania}{37}{subsubsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2}Trening detekcji karty ze znakiem zapytania}{38}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}Użycie Kaskad w celu realizacji Tricku (Maciej Plewka)}{38}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Użycie Kaskad w celu realizacji Tricku (Maciej Plewka)}{39}{section.6}
+\contentsline {subsection}{\numberline {6.1}Detekcja Czoła}{38}{subsection.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Detekcja Czoła}{39}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Detekcja Karty}{38}{subsection.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Detekcja Karty}{39}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Dobór parametrów detekcji}{39}{subsection.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Dobór parametrów detekcji}{40}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Zmniejszanie zdjęcia}{41}{subsection.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Zmniejszanie zdjęcia}{42}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Wklejanie obrazu karty w miejsce obiektu}{42}{subsection.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5}Wklejanie obrazu karty w miejsce obiektu}{43}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Implementacja w aplikacji}{42}{subsection.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}Implementacja w aplikacji}{43}{subsection.6.6}
+\contentsline {section}{\numberline {7}Technologia NFC (Konrad Ossowski)}{45}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Technologia NFC}{46}{section.7}
+\contentsline {paragraph}{Zasada działania}{45}{paragraph*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Zasada działania}{46}{paragraph*.41}
+\contentsline {subsection}{\numberline {7.1}Historia NFC}{45}{subsection.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Historia NFC}{46}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}NFC na platforie Android}{45}{subsection.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}NFC na platforie Android}{46}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}NfcAdapter}{46}{subsubsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.2.1}NfcAdapter}{47}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2}Znacznik}{47}{subsubsection.7.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.2.2}Znacznik}{48}{subsubsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.3}Zapis i odczyt danych z użyciem tagu NFC}{47}{subsubsection.7.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.2.3}Zapis i odczyt danych z użyciem tagu NFC}{48}{subsubsection.7.2.3}
+\contentsline {paragraph}{Zapis}{47}{paragraph*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Zapis}{48}{paragraph*.42}
+\contentsline {paragraph}{Odczyt}{48}{paragraph*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Odczyt}{49}{paragraph*.44}
+\contentsline {section}{\numberline {8}Podsumowanie (Maciej Plewka)}{51}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Podsumowanie}{52}{section.8}
+\contentsline {section}{Wykaz literatury}{52}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Wykaz literatury}{53}{section.8}
+\contentsline {section}{Wykaz rysunków}{53}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Wykaz rysunków}{54}{section.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Wykaz tabel}{55}{section.8}
-\defcounter {refsection}{0}\relax 
-\setcounter {tocdepth}{1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Dodatek \numberline {A}Przykładowy dodatek}{56}{Dodatek.1.A}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Rozdzia\PlPrIeC {\l } \numberline {A.1}Sekcja}{56}{subsection.1.A.1}
+\contentsline {section}{Wykaz tabel}{54}{section.8}

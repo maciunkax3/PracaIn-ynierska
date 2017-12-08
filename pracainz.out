@@ -1,13 +1,49 @@
-\BOOKMARK [1][-]{figure.caption.1}{Wykaz ważniejszych oznaczeń i skrótów}{}% 1
-\BOOKMARK [1][-]{section.1}{Wprowadzenie}{}% 2
-\BOOKMARK [1][-]{section.2}{Platforma\040Android}{}% 3
-\BOOKMARK [1][-]{section.3}{Kaskadowe\040klasyfikatory\040cech\040Haar'a}{}% 4
-\BOOKMARK [1][-]{section.4}{Wykorzystanie\040biblioteki\040OpenCV}{}% 5
-\BOOKMARK [1][-]{section.5}{Trening własnej kaskady}{}% 6
-\BOOKMARK [1][-]{section.6}{Użycie Kaskad w celu realizacji Tricku \(Maciej Plewka\)}{}% 7
-\BOOKMARK [1][-]{section.7}{Technologia\040NFC}{}% 8
-\BOOKMARK [1][-]{section.8}{Podsumowanie}{}% 9
-\BOOKMARK [1][-]{section.8}{Wykaz\040literatury}{}% 10
-\BOOKMARK [1][-]{section.8}{Wykaz rysunków}{}% 11
-\BOOKMARK [1][-]{section.8}{Wykaz\040tabel}{}% 12
-\BOOKMARK [1][-]{Dodatek.1.A}{Dodatek Przykładowy dodatek}{}% 13
+\BOOKMARK [1][-]{section.1}{Wprowadzenie\040\(Konrad\040Ossowski\)}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Istota\040magii}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Idea\040triku}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Platforma\040Android\040\(Konrad\040Ossowski,\040Maciej\040Plewka\)}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Programowanie\040obiektowe\040\(Konrad\040Ossowski\)}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Programowanie\040na\040Androida\040\(Konrad\040Ossowski\)}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Intencja\040\(Konrad\040Ossowski\)}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Manifest\040\(Konrad\040Ossowski\)}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.5}{Zasoby\040\(Konrad\040Ossowski\)}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.6}{Aktywność \(Konrad Ossowski\)}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.7}{Warstwa ograniczeń \(Konrad Ossowski\)}{section.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.7.1}{Elementu\040graficzne\040interfejsu\040\(Konrad\040Ossowski\)}{subsection.2.7}% 12
+\BOOKMARK [2][-]{subsection.2.8}{Singleton\040\(Konrad\040Ossowski\)}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.9}{System plików \(Konrad Ossowski\)}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.10}{Wibrator\040\(Konrad\040Ossoswki\)}{section.2}% 15
+\BOOKMARK [2][-]{subsection.2.11}{Aparat\040\(Maciej\040Plewka\)}{section.2}% 16
+\BOOKMARK [1][-]{section.3}{Kaskadowe\040klasyfikatory\040cech\040Haar'a\040\(Maciej\040Plewka\)}{}% 17
+\BOOKMARK [2][-]{subsection.3.1}{Cechy\040Haar'a}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.2}{Obliczanie wartości sumy pikseli}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.3}{Proces uczenia mocnych klasyfikatorów}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.4}{Kaskada klasyfikatorów mocnych}{section.3}% 21
+\BOOKMARK [1][-]{section.4}{Wykorzystanie\040biblioteki\040OpenCV\040\(Maciej\040Plewka\)}{}% 22
+\BOOKMARK [2][-]{subsection.4.1}{OpenCV\040w\040procesie\040trenowania\040kaskad}{section.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Generowanie zbioru zdjęć pozytywnych}{subsection.4.1}% 24
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Trening\040kaskady}{subsection.4.1}% 25
+\BOOKMARK [2][-]{subsection.4.2}{OpenCV\040na\040platformie\040Android}{section.4}% 26
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Detekcja obiektów}{subsection.4.2}% 27
+\BOOKMARK [1][-]{section.5}{Trening własnej kaskady \(Maciej Plewka\)}{}% 28
+\BOOKMARK [2][-]{subsection.5.1}{Zbiór danych uczących}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.2}{Proces\040treningu}{section.5}% 30
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Trening\040detercji\040rewersu\040karty}{subsection.5.2}% 31
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Trening\040detekcji\040karty\040ze\040znakiem\040zapytania}{subsection.5.2}% 32
+\BOOKMARK [1][-]{section.6}{Użycie Kaskad w celu realizacji Tricku \(Maciej Plewka\)}{}% 33
+\BOOKMARK [2][-]{subsection.6.1}{Detekcja Czoła}{section.6}% 34
+\BOOKMARK [2][-]{subsection.6.2}{Detekcja\040Karty}{section.6}% 35
+\BOOKMARK [2][-]{subsection.6.3}{Dobór parametrów detekcji}{section.6}% 36
+\BOOKMARK [2][-]{subsection.6.4}{Zmniejszanie zdjęcia}{section.6}% 37
+\BOOKMARK [2][-]{subsection.6.5}{Wklejanie\040obrazu\040karty\040w\040miejsce\040obiektu}{section.6}% 38
+\BOOKMARK [2][-]{subsection.6.6}{Implementacja\040w\040aplikacji}{section.6}% 39
+\BOOKMARK [1][-]{section.7}{Technologia\040NFC\040\(Konrad\040Ossowski\)}{}% 40
+\BOOKMARK [2][-]{subsection.7.1}{Historia\040NFC}{section.7}% 41
+\BOOKMARK [2][-]{subsection.7.2}{NFC\040na\040platforie\040Android}{section.7}% 42
+\BOOKMARK [3][-]{subsubsection.7.2.1}{NfcAdapter}{subsection.7.2}% 43
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Znacznik}{subsection.7.2}% 44
+\BOOKMARK [3][-]{subsubsection.7.2.3}{Zapis i odczyt danych z użyciem tagu NFC}{subsection.7.2}% 45
+\BOOKMARK [1][-]{section.8}{Podsumowanie\040\(Maciej\040Plewka\)}{}% 46
+\BOOKMARK [1][-]{section.8}{Wykaz\040literatury}{}% 47
+\BOOKMARK [1][-]{section.8}{Wykaz rysunków}{}% 48
+\BOOKMARK [1][-]{section.8}{Wykaz\040tabel}{}% 49
