@@ -1,13 +1,13 @@
 \section{Wykorzystanie biblioteki OpenCV (Maciej Plewka)}\label{sec:opencv}
-Biblioteka OpenCV to otwarte oprogramowanie, które jest wykorzystywane do przetwarzania zdjęć. Jest to narzędzie wspierane przez Windows, GNU/Linux, macOS oraz Android. W naszej pracy biblioteka została wykorzystana na systemie Ubuntu jednej z wielu dystrybucji systemu Linux w celu wytrenowania własnej kaskady oraz testowania a także na platformie Android by wykorzystać wytrenowane modele zaraz po wykonaniu zdjęcia aparatem. Źródła biblioteki są publicznie dostępne w zdalnym repozytorium \cite{OpenCVSource}. Narzędzia OpenCV umożliwiają wykorzystanie standardu OpenCL który pozwala na równoległe obliczenia z użyciem procesorów centralnych oraz graficznych.
+Biblioteka OpenCV to otwarte oprogramowanie, które jest wykorzystywane do przetwarzania zdjęć. Jest to narzędzie wspierane przez Windows, GNU/Linux, macOS oraz Android. W naszej pracy biblioteka ta została wykorzystana na systemie Ubuntu (jednej z wielu dystrybucji systemu Linux) w celu wytrenowania własnej kaskady oraz testowania a także na platformie Android by wykorzystać wytrenowane modele zaraz po wykonaniu zdjęcia aparatem. Źródła biblioteki są publicznie dostępne w zdalnym repozytorium \cite{OpenCVSource}. Narzędzia OpenCV umożliwiają wykorzystanie standardu OpenCL który pozwala na równoległe obliczenia z użyciem procesorów centralnych oraz graficznych.
 
 
 \subsection{OpenCV w procesie trenowania kaskad}
 
-OpenCV oprócz zestawu funkcji operacji na obrazach dostarcza także aplikację pozwalającą na wytrenowanie własnej kaskady cech Haar’a jest to opencv\_traincascade oraz kilka aplikacji które wspierają ten proces to takie aplikacje jak opencv\_createsamples który pozwala stworzyć zbiór uczący na podstawie pojedynczego pozytywnego zdjęcia, opencv\_visualisation umożliwia wizualizację cech włączonych do kaskady w odniesieniu do podanego zdjęcia ze wzorem obiektu którego detekcji uczymy.
+Biblioteka OpenCV oprócz zestawu funkcji służących do wykonywania operacji na zdjęciach, dostarcza także aplikacje umożliwiające przeprowadzenie procesu treningowego własych kaskadowych klasyfikatorów cech Haar'a. Pierwszą aplikacją jest opencv\_createsamples, która pozwala na wygenerowanie dużego zbioru zdjęć pozytywnych. Program opencv\_traincascade służy do właściwego treningu kaskady. Dodatkowo wykorzystać można jeszcze opencv\_visualisation jest to aplikacja, dzięki której możemy w trakcie treningu zobrazować dotychczas dobrane cechy na tle wzoru.
 
 \subsubsection{Generowanie zbioru zdjęć pozytywnych}\label{sec:generowanieZdjec}
-Przed rozpoczęciem trenowania naszej kaskady klasyfikatorów potrzebne są zdjęcia na których umieszczony jest  obiekt który ma być rozpoznawany oraz kolekcje zdjęć na których nie ma naszego wzorca. By kaskada została skutecznie wytrenowana potrzebne jest jak najwięcej zdjęć. Do wytrenowania kaskady, która rozpoznaje twarze, dołączonej wraz z biblioteką OpenCV wykorzystano 3000 zdjęć pozytywnych oraz 1500 zdjęć negatywnych. Jasnym problemem staje się wykonanie takiej liczby zdjęć na których znajduje się wybrany obiekt a następnie oznaczyć dokładnie jego położenie. Do stworzenia zbioru zdjęć pozytywnych wykorzystano aplikacje opencv\_createsaples. Program ten pozwala na wygenerowania zbioru zdjęć pozytywnych na podstawie jednego zdjęcia na którym tylko i wyłącznie znajduje się przedmiot który potem będzie szukany. Zdjęcie to zostaje umieszczone na każdym zdjęciu w losowych miejscach o losowym rozmiarze i o losowym przesunięciu w każdej z trzech płaszczyzn. Dobór zdjęć nie jest dowolny, ważne aby na zdjęciach na które zostanie nałożony nasz obiekt . Ostatnim elementem potrzebnym do skorzystania z aplikacji opencv\_createsamples jest przygotowanie pliku tekstowego w którym wylistowane będą ścieżki do plików na które mają zostać naniesione wzory naszego obiektu. Dla tak przygotowanych danych możemy uruchomić aplikacje opencv\_createsamples wraz ze wskazanymi parametrami:
+Przed rozpoczęciem trenowania naszej kaskady klasyfikatorów potrzebne są zdjęcia na których umieszczony jest  obiekt który ma być rozpoznawany oraz kolekcje zdjęć na których nie ma naszego wzorca. By kaskada została skutecznie wytrenowana potrzebne jest jak najwięcej zdjęć. Do wytrenowania kaskady, która rozpoznaje twarze, dołączonej wraz z biblioteką OpenCV wykorzystano 3000 zdjęć pozytywnych oraz 1500 zdjęć negatywnych. Jasnym problemem staje się wykonanie takiej liczby zdjęć na których znajduje się wybrany obiekt a następnie oznaczyć dokładnie jego położenie. Do stworzenia zbioru zdjęć pozytywnych wykorzystano aplikację opencv\_createsaples. Program ten pozwala na wygenerowania zbioru zdjęć pozytywnych na podstawie jednego zdjęcia na którym tylko i wyłącznie znajduje się przedmiot który potem będzie szukany. Zdjęcie to zostaje umieszczone na każdym zdjęciu w losowych miejscach o losowym rozmiarze i o losowym przesunięciu w każdej z trzech płaszczyzn. Dobór zdjęć nie jest dowolny, ważne aby na zdjęciach na które zostanie nałożony nasz obiekt . Ostatnim elementem potrzebnym do skorzystania z aplikacji opencv\_createsamples jest przygotowanie pliku tekstowego w którym wylistowane będą ścieżki do plików na które mają zostać naniesione wzory naszego obiektu. Dla tak przygotowanych danych możemy uruchomić aplikacje opencv\_createsamples wraz ze wskazanymi parametrami:
 \begin{itemize}
     \item -img \textless ścieżka do wzorcowego zdjęcia \textgreater
     \item -bt \textless ścieżka do pliku z opisem zdjęć tła\textgreater
@@ -22,7 +22,7 @@ Przed rozpoczęciem trenowania naszej kaskady klasyfikatorów potrzebne są zdj�
 
 \end{itemize}
 
-Po uruchomieniu aplikacji we wskazanym folderze zostaną wygenerowane pozytywne zdjęcia 
+Po uruchomieniu aplikacji we wskazanym folderze zostaną wygenerowane pozytywne zdjęcia.
 
 \begin{figure}[H]
 \centering
@@ -30,7 +30,7 @@ Po uruchomieniu aplikacji we wskazanym folderze zostaną wygenerowane pozytywne 
 \caption{Wygenerowane pozytywne zdjęcie}\label{misie}
 \end{figure}
 
-Rysunek \ref{misie} przedstawia przykładowo wygenerowane pozytywne zdjęcie. Informacje na temat zdjęcia zapisane we wskazanym pliku info dla tego zdjęcia wygląda następująco
+Rysunek \ref{misie} przedstawia przykładowo wygenerowane pozytywne zdjęcie. Informacje na temat zdjęcia zapisany we wskazanym pliku info dla tego zdjęcia wygląda następująco: \newline
 0185\_0196\_0219\_0293\_0454.jpg 1 196 219 293 454
 Elementy kolejno oznaczają:
 
@@ -44,7 +44,7 @@ Elementy kolejno oznaczają:
 
 \end{itemize}
 
-Posiadając plik info z informacjami na temat położenia zdjęć możemy uzyskać plik z rozszerzeniem vec, który następnie będzie używany przez aplikacje trenującą kaskadę. Posłuży nam do tego także aplikacja opencv\_createsamples. Tym razem należy wskazać następujące parametry:
+Posiadając plik info z informacjami na temat położenia zdjęć możemy uzyskać plik z rozszerzeniem vec, który następnie będzie używany przez aplikację trenującą kaskadę. Posłuży nam do tego także aplikacja opencv\_createsamples. Tym razem należy wskazać następujące parametry:
 
 \begin{itemize}
     \item -info \textless sciezka do pliku info w którym znajdują się informacje o obiektach \textgreater
@@ -57,7 +57,7 @@ Posiadając plik info z informacjami na temat położenia zdjęć możemy uzyska
 
 \subsubsection{Trening kaskady}
 
-Do treningu kaskady wykorzystujemy aplikacje opencv\_traincasscade, która implementuje algorytm opisany w punkcie 3.3 . Aplikacja zostanie uruchomiona z następującymi parametrami:
+Do treningu kaskady wykorzystujemy aplikację opencv\_traincasscade, która implementuje algorytm \ref{adaBoost} opisany w punkcie \ref{uczenieMocnych}. Aplikacja zostanie uruchomiona z następującymi parametrami:
 
 \begin{itemize}
     \item -vec \textless ścieżka do pliku z wektorem opisującym pozytywne zdjęcia \textgreater
@@ -81,7 +81,7 @@ Te parametry są niezbędne do uruchomienia treningu za pomocą tej aplikacji. M
 
 \end{itemize}
 
-Podczas trenowania kaskady przydatna jest także aplikacja opencv\_visualisation, która da dotychczasowych etapów generuje podgląd dobranych cech na tle obiektu. Program ten przyjmuje następujące parametry:
+Podczas trenowania kaskady przydatna jest także aplikacja opencv\_visualisation, która dla dotychczasowych etapów generuje podgląd dobranych cech na tle obiektu. Program ten przyjmuje następujące parametry:
 
 \begin{itemize}
     \item -data \textless ścieżka do wygenerowanych obrazów z naniesionymi cechami \textgreater
@@ -90,27 +90,35 @@ Podczas trenowania kaskady przydatna jest także aplikacja opencv\_visualisation
 
 \end{itemize}
 
-Po uruchomieniu aplikacji zostaną wygenerowane pliki zdjęciowe, osobno dla każdego etapu kaskady. Na każdym z utworzonych obrazów znajduje wizualizacja osobno wszystkich cech wchodzących w skład danego etapu. Obok zdjęć generowany jest także plik wideo w formacie avi na którym przedstawione są po kolei wszystkie cechy wchodzące w skład kaskady na tle obiektu
+Po uruchomieniu aplikacji zostaną wygenerowane pliki zdjęciowe, osobno dla każdego etapu kaskady. Na każdym z utworzonych obrazów znajduje wizualizacja osobno wszystkich cech wchodzących w skład danego etapu. Obok zdjęć generowany jest także plik wideo w formacie avi na którym przedstawione są po kolei wszystkie cechy wchodzące w skład kaskady na tle obiektu. Rysunek \ref{visExample} przedstawia przykladową wizualizacje jednego z etapów kaskady.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.1]{imgs/data3stage_1.png}
-\caption{Cechy mocnego asyfikatora}
+\caption{Cechy mocnego asyfikatora}\label{visExample}
 \end{figure}
 
 \subsection{OpenCV na platformie Android}
 
-Biblioteka OpenCV dla Androida dostarczona jest w zestawie narzędzi deweloperskich OpenCV. Daje ona api Javy. Posiada on prawie wszystkie funkcjonalności Javy. Wszystkie operacje wykonywane są przy użyciu natywnych metod zaimplementowanych w języku C++. Istnieją dwa podejścia w wykorzystaniu tej biblioteki pierwsze zakłada wołanie funkcji poprzez dostarczone api Javy pozwalające bezpośrednio i w łatwy sposób wykorzystanie funkcji w celu przetwarzania obrazu. Wadą takiego podejścia jest wykorzystanie metod JNI, które trwają stosunkowo długo, do tego dochodzi kwestia kopiowania i mapowania obiektów co także mocno wykorzystuje zasoby. Drugie podejście zakłada użycie metod biblioteki z poziomu funkcji natywnych. Zastosowanie takiego rozwiązania jest korzystne jeśli w konkretnym bloku wykonujemy szereg funkcji które z poziomu kodu java wołały by także metody jni. W tym wypadku tak wołana metoda byłaby tylko raz a reszta funkcji wołana by była juz z niskiego poziomu. Takie rozwiązanie jest szybsze oraz wykorzystuje mniej zasobów. Dodatkowo w przypadku wywoływania metod z niskiego poziomu mamy dostęp do 100\% funkcji dostarczanych przez bibliotekę. Jest to rozwiązanie bardziej skomplikowane, trzeba także pamiętać o odpowiednim zarządzaniu pamięcią, gdyż garbage collector działa tylko w ramach maszyny wirtualnej java.
+Biblioteka OpenCV dla Androida dostarczona jest w zestawie narzędzi deweloperskich OpenCV. Daje ona api Javy. Posiada on prawie wszystkie funkcjonalności Javy. Wszystkie operacje wykonywane są przy użyciu natywnych metod zaimplementowanych w języku C++. Istnieją dwa podejścia w wykorzystaniu tej biblioteki. Pierwsze zakłada wołanie funkcji poprzez dostarczone api Javy pozwalające bezpośrednio i w łatwy sposób wykorzystanie funkcji w celu przetwarzania obrazu. Wadą takiego podejścia jest wykorzystanie metod JNI, które trwają stosunkowo długo, do tego dochodzi kwestia kopiowania i mapowania obiektów co także mocno wykorzystuje zasoby. Drugie podejście zakłada użycie metod biblioteki z poziomu funkcji natywnych. Zastosowanie takiego rozwiązania jest korzystne jeśli w konkretnym bloku wykonujemy szereg funkcji które z poziomu kodu java wołałyby metody jni. W takim przypadku, kosztowne zawołanie metody przy użyciu jni zostało by wykonane raz, natomiast reszta natywnych funkcji została by zawołana bezpośrednio z niskiego poziomu. Takie rozwiązanie jest szybsze oraz wykorzystuje mniej zasobów. Dodatkowo w przypadku wywoływania metod z niskiego poziomu mamy dostęp do wszystkich funkcji dostarczanych przez bibliotekę. Jest to rozwiązanie bardziej skomplikowane, trzeba także pamiętać o odpowiednim zarządzaniu pamięcią, gdyż garbage collector działa tylko w ramach maszyny wirtualnej java.
 
 \subsubsection{Detekcja obiektów}
 
-Cały proces detekcji odbywa się przy użyciu kilku funkcji z biblioteki openCV. Na początku należy wczytać zdjęcie. W zależności od źródła zdjęcia może być ono odczytane np jako pojedyncza klatka z kamery lub tak jak w naszym przypadku weźmiemy pojedyncze zdjęcie z pamięci urządzenia. Służy do tego metoda imread wywoływana na obiekcie Imgcodecs. Parametrami tej funkcji są ścieżka do pliku zdjęciowego oraz parametr oznaczający format w jakim ma byc odczytane zdjęcie takimi formatami są:
+Cały proces detekcji odbywa się przy użyciu kilku funkcji z biblioteki openCV. Na początku należy wczytać zdjęcie. W zależności od źródła zdjęcia może być ono odczytane np. jako pojedyncza klatka z kamery lub tak jak w naszym przypadku pojedyncze zdjęcie z pamięci urządzenia. Służy do tego metoda imread wywoływana na obiekcie Imgcodecs. Parametrami tej funkcji są: ścieżka do pliku zdjęciowego oraz parametr oznaczający format w jakim ma być odczytane zdjęcie. Takimi formatami są:
 \begin{itemize}
-    \item CV\_LOAD\_IMAGE\_UNCHANGED (\textless0) ładuje zdjęcie w takim formacie w jakim oryginalnie jest zapisane.
-    \item CV\_LOAD\_IMAGE\_GRAYSCALE ( 0) ładuję zdjęcie w skali szarości
-    \item CV\_LOAD\_IMAGE\_COLOR (\textgreater0) ładuję zdjęcie w formacie BGR
+    \item CV\_LOAD\_IMAGE\_UNCHANGED (\textless0) ładuje zdjęcie w takim formacie, w jakim oryginalnie jest zapisane.
+    \item CV\_LOAD\_IMAGE\_GRAYSCALE ( 0) ładuje zdjęcie w skali szarości
+    \item CV\_LOAD\_IMAGE\_COLOR (\textgreater0) ładuje zdjęcie w formacie BGR
 \end{itemize}
-Do późniejszej detekcji potrzebujemy zdjęcie wczytane w skali szarości dlatego wczytujemy z parametrem cv2.IMREAD\_GRAYSCALE.
-Załadowane zdjęcie znajduje się w obiekcie klasy Mat. Jest to klasa przechowująca macierze oraz obrazy. Posiada wiele właściwości opisujące zdjęcie takie jak np rozmiar.
-Do detekcji potrzebujemy załadować także nasz plik z kaskadą w formacie xml. Tworzymy obiekt klasy CascadeClassifier, w konstruktorze obiektu podajemy ścieżkę do naszego wytrenowanego modelu. Kiedy mamy przygotowany obraz oraz kaskadę możemy na kaskadzie zawołać metodę detectMultiScale która w parametrach przyjmuje obiekt Mat w którym znajduje się załadowane zdjęcie na którym szukamy obiektu, referencja do kolekcji MatOfRect do którego zostaną zapisane fragmenty zdjęcia z szukanym obiektem, scaleFactor to następny parametr, który określa zmianę wielkość przeszukiwanego fragmentu w kolejnych iteracjach algorytmu. Wysoka wartość tego parametru sprawia, że różnica między klasyfikatorami w kolejnych iteracjach jest większa. Mała wartość parametru sprawia, że większa ilość fragmentów zostanie przeszukana co sprawia, że detekcja trwa długo. Wysoka wartość przyspiesza znacząco czas działania algorytmu lecz istnieje możliwość pominięcia przeoczenia szukanego elementu. Kolejny parametr to minNeighbors który określa minimalną ilość sąsiednich fragmentów uznanych jako wykryty obiekt, żeby uznać go za pozytywny. Kolejne parametry to obiekty typu size określające minimalną wielkość i maksymalną wielkość szukanego obiektu. Jeśli różnica tych wielkości jest duża czas algorytmy się wydłuży gdyż więcej różnych wielkości będzie musiało zostać sprawdzonych. 
-Po wykonaniu metody detectMultiScale kolekcji MatOfRect zapisane są informacje o współrzędnych odnalezionych obiektów,w tych miejscach możemy wkleić prostokąt lub w jakiś inny sposób modyfikować.
+Do późniejszej detekcji potrzebujemy zdjęcia wczytanego w skali szarości dlatego wczytujemy je z parametrem cv2.IMREAD\_GRAYSCALE.
+Załadowane zdjęcie znajduje się w obiekcie klasy Mat. Jest to klasa przechowująca macierze oraz obrazy. Posiada wiele właściwości opisujące zdjęcie takie jak np. rozmiar.
+Do detekcji potrzebujemy załadować także nasz plik z kaskadą w formacie xml. Tworzymy obiekt klasy CascadeClassifier, w konstruktorze obiektu podajemy ścieżkę do naszego wytrenowanego modelu. Kiedy mamy przygotowany obraz oraz kaskadę, możemy na obiekcie z załadowanymm modelem zawołać metodę detectMultiScale która przyjmuje następujące parametry:
+\begin{itemize}
+	\item \textit{image} to obiekt klasy Mat opisujacy załadowane zdjęcie na którym szukamy obiektu.
+	\item \textit{objects} to referencja do kolekcji MatOfRect, w której zostaną zapisane fragmenty zdjęcia z szukanym obiektem.
+	\item \textit{scaleFactor} określa stopień zmiany wielkości analizowanego frgmentu w kolejnych iteracjach algorytmu.
+	\item \textit{minNeighbors} określa minimalną ilość sąsiednich fragmentów uznanych jako wykryty obiekt, żeby uznać go za pozytywny
+	\item \textit{minSize} jest to obiekt typu Size, określający minimalną wielkość analizowanego fragmentu zdjęcia.
+	\item \textit{maxSize} jest to obiekt typu Size, określający maksymalną wielkość analizowanego fragmentu zdjęcia.
+\end{itemize}
+Po wykonaniu metody detectMultiScale w kolekcji MatOfRect, której referencja była jednym z argumentów wywołanej metody, zapisane są informacje o współrzędnych odnalezionych obiektów. W tych miejscach możemy wkleić prostokąt lub w jakiś inny sposób modyfikować.

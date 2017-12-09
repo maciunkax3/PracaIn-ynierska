@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.12.2)  8 DEC 2017 20:00
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.12.2)  9 DEC 2017 01:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1647,12 +1647,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: imgs/0448_0134_0398_0203_0316.png Graphic file (type QTm)
 
 <use  "imgs/0448_0134_0398_0203_0316.png" >
-Overfull \hbox (97.46652pt too wide) in paragraph at lines 33--36
-\EU1/Arial(0)/m/n/10 temat zdjęcia zapisane we wskazanym pliku info dla tego zd
-jęcia wygląda następująco 0185_0196_0219_0293_0454.jpg
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
@@ -1661,10 +1655,10 @@ File: imgs/data3stage_1.png Graphic file (type QTm)
 <use  "imgs/data3stage_1.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31])
+ [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
+ [32])
 [33] (./rozdzialy/5-rozdzial.tex
 File: imgs/RewersyKarty.jpg Graphic file (type QTm)
  <use  "imgs/RewersyKarty.jpg" >
@@ -1813,20 +1807,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
  (./pracainz.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 327.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 327.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'pracainz.run.xml'.
 \openout1 = `pracainz.run.xml'.
 
  )
 (\end occurred when \iftrue on line 276 was incomplete) 
 Here is how much of TeX's memory you used:
- 34726 strings out of 495548
- 596941 string characters out of 6186682
- 1106148 words of memory out of 5000000
- 37536 multiletter control sequences out of 15000+600000
+ 34739 strings out of 495548
+ 597107 string characters out of 6186682
+ 1107148 words of memory out of 5000000
+ 37549 multiletter control sequences out of 15000+600000
  8812 words of font info for 54 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
  48i,11n,79p,10401b,1781s stack positions out of 5000i,500n,10000p,200000b,80000s
