@@ -1,19 +1,19 @@
 \section{Użycie Kaskad w celu realizacji Tricku (Maciej Plewka)}
 
-W tym rozdziale opisany zostanie sposób użycia kaskady do zrealizowania dwóch wariantów sztuczki. Pierwszy to ten w którym wklejana jest karta w miejsce odnalezionego czoła, w drugim przypadku zamieszczamy ją w miejsce wyznaczonego obiektu. Opisane będą także sposoby dzięki którym osiągnięto optymalną skuteczność.
+W tym rozdziale opisany zostanie sposób użycia kaskady do zrealizowania dwóch wariantów sztuczki. Pierwszy to ten w którym wklejana jest karta w miejsce odnalezienia czoła, w drugim przypadku zamieszczamy ją w miejsce wyznaczonego obiektu. Opisane będą także sposoby dzięki którym osiągnięto optymalną skuteczność.
 
 \subsection{Detekcja Czoła}
 
 W celu detekcji czoła wykorzystano kaskady zapisane w plikach w plikach z rozszerzeniem xml, które są dołączone razem z biblioteką openCV. Wykorzystano plik kaskadowy pliki lbpcascade\_frontalface.xml oraz haarcascade\_lefteye\_2splits.xml.
 Pierwszy z nich opisuje klasyfikatory służąca do rozpoznawania przodu twarzy, drugi 
-teoretycznie służy do detekcji lewego oka które jest otwarte. Kaskada służąca do rozpoznawania lewego oka w praktyce jest wstanie skutecznie rozpoznać także prawe oko. Dzięki temu przy użyciu jednego modelu jesteśmy w stanie wskazać parę oczu, wykonujac proces detekcji tylko raz. W naszej aplikacji miejsce czoła zostaje wyznaczone na podstawie informacji na temat położenia twarzy oraz oczu. Wykrywanie oczu zostaje uruchomione w momencie rozpoznania twarzy, gdyż wiadomym jest, że do poprawnego wykrycia oczu muszą się one znajdować w twarzy. 
+teoretycznie służy do detekcji lewego oka które jest otwarte. Kaskada służąca do rozpoznawania lewego oka w praktyce jest wstanie skutecznie rozpoznać także prawe oko. Dzięki temu przy użyciu jednego modelu jesteśmy w stanie wskazać parę oczu, wykonując proces detekcji tylko raz. W naszej aplikacji miejsce czoła zostaje wyznaczone na podstawie informacji na temat położenia twarzy oraz oczu. Wykrywanie oczu zostaje uruchomione w momencie rozpoznania twarzy, gdyż wiadomym jest, że do poprawnego wykrycia oczu muszą się one znajdować w twarzy. 
 Następnie, jeśli udało się nam odnaleźć w zdjęciu twarz, a w niej parę oczu uznajemy że detekcja przebiegła poprawnie. Zwrócone obiekty są typu Rect. Jest to typ z biblioteki openCV. W tym momencie wyznaczamy matematycznie domniemane miejsce czoła na podstawie położenia na zdjęciu twarzy oraz oczu. Lecz zanim określimy dokładne miejsce czoła należy określić które oko znajduje się po lewej.
 Za lewy dolny punkt czoła przyjmiemy lewy górny punkt oka znajdującego się po lewej stronie, natomiast prawy dolny punkt jest równy co do wartości prawemu górnemu rogowi oka prawego. Różnica tych wartości jest zatem szerokością czoła. Wysokość czoła jest to szerokość czoła podzielona przez 2 albo jeśli wyznaczona w ten sposób wartość nie znajduje się w obrębie twarzy. Za wysokość przyjmujemy różnice między wyznaczonymi dolnymi punktami czoła a współrzędną y prostokąta znajdującego się w twarzy.
 
 
 \subsection{Detekcja Karty}
 
-W odróżnieniu od detekcji czoła znalezienie karty ogranicza się do zawołania metody detectmultiscale na wcześniej załadowanej kaskadzie. Po otrzymaniu informacji na temat odnalezionych obiektów analizuje się ich liczbę. Przyjęto, że detekcja zostanie oceniana jako poprawna, gdy odnaleziony zostanie dokładnie jeden element, ponieważ sztuczka będzie wykonywana jednej osobie na raz, a osoba ta będzie trzymać jedną kartę. W przypadku, w którym rozpoznany będzie więcej niż jeden obiekt lub nie odnaleziony będzie ani jeden, zostanie zwrócony komunikat o potrzebie ponownego wykonania zdjęcia.
+W odróżnieniu od detekcji czoła znalezienie karty ogranicza się do zawołania metody detectmultiscale na wcześniej załadowanej kaskadzie. Po otrzymaniu informacji na temat odnalezionych obiektów analizuje się ich liczbę. Przyjęto, że detekcja zostanie oceniona jako poprawna, gdy odnaleziony zostanie dokładnie jeden element, ponieważ sztuczka będzie wykonywana jednej osobie na raz, a osoba ta będzie trzymać jedną kartę. W przypadku, w którym rozpoznany będzie więcej niż jeden obiekt lub nie odnaleziony będzie ani jeden, zostanie zwrócony komunikat o potrzebie ponownego wykonania zdjęcia.
 
 \subsection{Dobór parametrów detekcji}
 

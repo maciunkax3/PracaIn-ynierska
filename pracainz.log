@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.12.2)  9 DEC 2017 02:16
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.12.2)  9 DEC 2017 10:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1668,7 +1668,7 @@ Underfull \vbox (badness 3098) has occurred while \output is active []
 File: imgs/cechyRewers.png Graphic file (type QTm)
 
 <use  "imgs/cechyRewers.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1852) has occurred while \output is active []
 
  [35]
 File: imgs/cechy?.png Graphic file (type QTm)
