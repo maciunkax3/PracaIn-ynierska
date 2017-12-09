@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.12.2)  9 DEC 2017 01:23
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.12.2)  9 DEC 2017 01:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1539,16 +1539,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--22
 
  []
 
-
-Underfull \vbox (badness 2221) has occurred while \output is active []
-
- [8]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
 
-Underfull \vbox (badness 2600) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9])
 [10] (./rozdzialy/2-rozdzial.tex
@@ -1637,52 +1634,49 @@ Overfull \hbox (15.0pt too wide) detected at line 93
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26])
+[27] (./rozdzialy/4-rozdzial.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
-[28] (./rozdzialy/4-rozdzial.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
+ [28]
 File: imgs/0448_0134_0398_0203_0316.png Graphic file (type QTm)
 
 <use  "imgs/0448_0134_0398_0203_0316.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
+ [29]
 File: imgs/data3stage_1.png Graphic file (type QTm)
 
 <use  "imgs/data3stage_1.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
+ [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32])
-[33] (./rozdzialy/5-rozdzial.tex
+ [31])
+[32] (./rozdzialy/5-rozdzial.tex
 File: imgs/RewersyKarty.jpg Graphic file (type QTm)
  <use  "imgs/RewersyKarty.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [33]
 File: imgs/Karta?.jpg Graphic file (type QTm)
 
 <use  "imgs/Karta?.jpg" >
 Underfull \vbox (badness 3098) has occurred while \output is active []
 
- [35]
+ [34]
 File: imgs/cechyRewers.png Graphic file (type QTm)
 
 <use  "imgs/cechyRewers.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
+ [35]
 File: imgs/cechy?.png Graphic file (type QTm)
 
-<use  "imgs/cechy?.png" >) [37] (./rozdzialy/6-rozdzial.tex
+<use  "imgs/cechy?.png" >) [36] (./rozdzialy/6-rozdzial.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+ [37]
 File: imgs/twarze11.jpg Graphic file (type QTm)
 
 <use  "imgs/twarze11.jpg" >
@@ -1702,10 +1696,6 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <9> on input line 80.
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <6> on input line 80.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [39]
 File: imgs/somsiad1.jpg Graphic file (type QTm)
 
 <use  "imgs/somsiad1.jpg" >
@@ -1714,16 +1704,20 @@ File: imgs/somsiad3.jpg Graphic file (type QTm)
 File: imgs/somsiad8.jpg Graphic file (type QTm)
 
 <use  "imgs/somsiad8.jpg" >
-File: imgs/somsiadd1.jpg Graphic file (type QTm)
- <use  "imgs/somsiadd1.jpg" >
-File: imgs/somsiadd6.jpg Graphic file (type QTm)
-
-<use  "imgs/somsiadd6.jpg" >
-File: imgs/somsiadd16.jpg Graphic file (type QTm)
- <use  "imgs/somsiadd16.jpg" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+ [38]
+File: imgs/somsiadd1.jpg Graphic file (type QTm)
+
+<use  "imgs/somsiadd1.jpg" >
+File: imgs/somsiadd6.jpg Graphic file (type QTm)
+ <use  "imgs/somsiadd6.jpg" >
+File: imgs/somsiadd16.jpg Graphic file (type QTm)
+
+<use  "imgs/somsiadd16.jpg" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
 Overfull \hbox (25.94489pt too wide) in paragraph at lines 207--214
  [][] 
  []
@@ -1731,7 +1725,7 @@ Overfull \hbox (25.94489pt too wide) in paragraph at lines 207--214
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [40]
 File: imgs/puste.png Graphic file (type QTm)
 
 <use  "imgs/puste.png" >
@@ -1742,24 +1736,24 @@ File: imgs/czolo.png Graphic file (type QTm)
 File: imgs/oba.png Graphic file (type QTm)
 
 <use  "imgs/oba.png" >
-Underfull \vbox (badness 3250) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
+ [41]
 Overfull \hbox (12.23032pt too wide) in paragraph at lines 291--292
 \EU1/Arial(0)/m/n/10 Następnie w zależności od wariantu sztuczki można wybrać p
 rzycisk OZNACZ CZOŁO albo OZNACZ
  []
 
-[43]) [44] (./rozdzialy/7-rozdzial.tex [45] [46] [47]
+[42]) [43] (./rozdzialy/7-rozdzial.tex [44] [45] [46]
 File: imgs/write.png Graphic file (type QTm)
  <use  "imgs/write.png" >
-[48]
+[47]
 File: imgs/read.png Graphic file (type QTm)
  <use  "imgs/read.png" >)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
-[50] (./rozdzialy/8-rozdzial.tex) [51]
+ [48]
+[49] (./rozdzialy/8-rozdzial.tex) [50]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1793,20 +1787,24 @@ adowy artykuł online\EU1/Arial(0)/m/n/10 . Dostęp 8.12.2016. 2016. URL: []$[][
 [][][] []
  []
 
-[52] (./pracainz.lof)
+[51] (./pracainz.lof)
 \tf@lof=\write7
 \openout7 = `pracainz.lof'.
 
- [53] (./pracainz.lot)
+ [52] (./pracainz.lot)
 \tf@lot=\write8
 \openout8 = `pracainz.lot'.
 
- [54]
+ [53]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 327.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
  (./pracainz.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 327.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 327.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'pracainz.run.xml'.
 \openout1 = `pracainz.run.xml'.
 
@@ -1815,10 +1813,10 @@ Package logreq Info: Writing requests to 'pracainz.run.xml'.
 Here is how much of TeX's memory you used:
  34739 strings out of 495548
  597107 string characters out of 6186682
- 1107148 words of memory out of 5000000
+ 1101148 words of memory out of 5000000
  37549 multiletter control sequences out of 15000+600000
  8812 words of font info for 54 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 48i,11n,79p,10401b,1781s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,79p,10401b,1779s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on pracainz.pdf (53 pages).
+Output written on pracainz.pdf (52 pages).

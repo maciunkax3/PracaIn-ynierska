@@ -76,64 +76,64 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4}Kaskada klasyfikatorów mocnych}{27}{subsection.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Wykorzystanie biblioteki OpenCV (Maciej Plewka)}{29}{section.4}
+\contentsline {section}{\numberline {4}Wykorzystanie biblioteki OpenCV (Maciej Plewka)}{28}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}OpenCV w procesie trenowania kaskad}{29}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.1}OpenCV w procesie trenowania kaskad}{28}{subsection.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Generowanie zbioru zdjęć pozytywnych}{29}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Generowanie zbioru zdjęć pozytywnych}{28}{subsubsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}Trening kaskady}{31}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2}Trening kaskady}{30}{subsubsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}OpenCV na platformie Android}{32}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}OpenCV na platformie Android}{31}{subsection.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Detekcja obiektów}{32}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1}Detekcja obiektów}{31}{subsubsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Trening własnej kaskady (Maciej Plewka)}{34}{section.5}
+\contentsline {section}{\numberline {5}Trening własnej kaskady (Maciej Plewka)}{33}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Zbiór danych uczących}{34}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.1}Zbiór danych uczących}{33}{subsection.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Proces treningu}{36}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.2}Proces treningu}{35}{subsection.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1}Trening detercji rewersu karty}{36}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1}Trening detercji rewersu karty}{35}{subsubsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2}Trening detekcji karty ze znakiem zapytania}{37}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2}Trening detekcji karty ze znakiem zapytania}{36}{subsubsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Użycie Kaskad w celu realizacji Tricku (Maciej Plewka)}{38}{section.6}
+\contentsline {section}{\numberline {6}Użycie Kaskad w celu realizacji Tricku (Maciej Plewka)}{37}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Detekcja Czoła}{38}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.1}Detekcja Czoła}{37}{subsection.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Detekcja Karty}{38}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.2}Detekcja Karty}{37}{subsection.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Dobór parametrów detekcji}{39}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.3}Dobór parametrów detekcji}{38}{subsection.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Zmniejszanie zdjęcia}{41}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.4}Zmniejszanie zdjęcia}{40}{subsection.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5}Wklejanie obrazu karty w miejsce obiektu}{42}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.5}Wklejanie obrazu karty w miejsce obiektu}{41}{subsection.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}Implementacja w aplikacji}{42}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.6}Implementacja w aplikacji}{41}{subsection.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Technologia NFC (Konrad Ossowski)}{45}{section.7}
+\contentsline {section}{\numberline {7}Technologia NFC (Konrad Ossowski)}{44}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Zasada działania}{45}{paragraph*.41}
+\contentsline {paragraph}{Zasada działania}{44}{paragraph*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Historia NFC}{45}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.1}Historia NFC}{44}{subsection.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}NFC na platforie Android}{45}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.2}NFC na platforie Android}{44}{subsection.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.2.1}NfcAdapter}{46}{subsubsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.1}NfcAdapter}{45}{subsubsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.2.2}Znacznik}{47}{subsubsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2}Znacznik}{46}{subsubsection.7.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.2.3}Zapis i odczyt danych z użyciem tagu NFC}{47}{subsubsection.7.2.3}
+\contentsline {subsubsection}{\numberline {7.2.3}Zapis i odczyt danych z użyciem tagu NFC}{46}{subsubsection.7.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Zapis}{47}{paragraph*.42}
+\contentsline {paragraph}{Zapis}{46}{paragraph*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Odczyt}{48}{paragraph*.44}
+\contentsline {paragraph}{Odczyt}{47}{paragraph*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Podsumowanie (Maciej Plewka)}{51}{section.8}
+\contentsline {section}{\numberline {8}Podsumowanie (Maciej Plewka)}{50}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Wykaz literatury}{52}{section.8}
+\contentsline {section}{Wykaz literatury}{51}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Wykaz rysunków}{53}{section.8}
+\contentsline {section}{Wykaz rysunków}{52}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Wykaz tabel}{54}{section.8}
+\contentsline {section}{Wykaz tabel}{53}{section.8}

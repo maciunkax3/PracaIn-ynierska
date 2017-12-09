@@ -8,32 +8,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces {Cechy Haara Źródło:} \cite {faceDetectionOpenCV}\relax }}{23}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Obliczanie sumy wartości pikseli Źródło: \cite {sumPixelsDoc}\relax }}{25}{figure.caption.23}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Obliczanie sumy wartości pikseli Źródło: \cite {sumPixelsDoc}\relax }}{24}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Działanie mocnego klasyfikatora Źródło: \cite {AdaBoostClasifire}\relax }}{26}{figure.caption.24}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Działanie mocnego klasyfikatora Źródło: \cite {AdaBoostClasifire}\relax }}{25}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Wygenerowane pozytywne zdjęcie\relax }}{30}{figure.caption.25}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Wygenerowane pozytywne zdjęcie\relax }}{29}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Cechy mocnego asyfikatora\relax }}{32}{figure.caption.26}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Cechy mocnego asyfikatora\relax }}{31}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Rewersy kart użyte do treningu\relax }}{35}{figure.caption.27}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Rewersy kart użyte do treningu\relax }}{34}{figure.caption.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Wzory własnej karty użyte do treningu\relax }}{35}{figure.caption.28}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Wzory własnej karty użyte do treningu\relax }}{34}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Cechy opisujące rewers karty\relax }}{37}{figure.caption.29}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Cechy opisujące rewers karty\relax }}{36}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Cechy opisujące naszą kartę\relax }}{37}{figure.caption.30}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Cechy opisujące naszą kartę\relax }}{36}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Detekcja twarzy dla różnych wartości scaleFactor\relax }}{39}{figure.caption.31}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Detekcja twarzy dla różnych wartości scaleFactor\relax }}{38}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Detekcja karty dla różnych wartości scaleFactor\relax }}{39}{figure.caption.32}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Detekcja karty dla różnych wartości scaleFactor\relax }}{38}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Detekcja twarzy dla różnych wartości minNeighbors\relax }}{40}{figure.caption.34}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Detekcja twarzy dla różnych wartości minNeighbors\relax }}{39}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Detekcja karty dla różnych wartości minNeighbors\relax }}{40}{figure.caption.35}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Detekcja karty dla różnych wartości minNeighbors\relax }}{39}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Widoki aktywności obsługującej zdjęcia\relax }}{42}{figure.caption.40}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Widoki aktywności obsługującej zdjęcia\relax }}{41}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Aktywność do zapisywania danych do tagu NFC\relax }}{48}{figure.caption.43}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Aktywność do zapisywania danych do tagu NFC\relax }}{47}{figure.caption.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Aktywność do odczytywania danych do tagu NFC\relax }}{50}{figure.caption.45}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Aktywność do odczytywania danych do tagu NFC\relax }}{49}{figure.caption.45}
